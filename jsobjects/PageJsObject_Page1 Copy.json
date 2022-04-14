@@ -1,0 +1,24 @@
+{
+  "unpublishedCollection": {
+    "name": "PageJsObject",
+    "pageId": "Page1 Copy",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\tmyVar1: [],\n\tmyVar2: {},\n\tmyFun1: () => {\n\t\t//write code here\n\t\tPageInputWidget.text;\n\t\t// Input1.text;\n\t\t// Input2.text;\n\t\t// Input3.text;\n\t\t// Input4.text;\n    // (getUsers?.data &&\tgetUsers?.data[0].name);\n\t\tgetUsers.run()\n\t},\n\tmyFun2: async () => {\n\t\t//use async-await or promises\n\t}\n}",
+    "variables": [
+      {
+        "name": "myVar1",
+        "value": []
+      },
+      {
+        "name": "myVar2",
+        "value": {}
+      }
+    ]
+  },
+  "id": "Page1 Copy_PageJsObject",
+  "deleted": false,
+  "gitSyncId": "625580ae0d3d384069c02728_6257b81c0d3d384069c0b5e1"
+}

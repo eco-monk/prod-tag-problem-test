@@ -5,13 +5,17 @@
   "publishedDefaultPageName": "home",
   "unpublishedDefaultPageName": "home",
   "invisibleActionFields": {
-    "Page1_PageJsObject.myFun1": {
+    "Page1 Copy_PageJsObject.myFun1": {
       "unpublishedUserSetOnLoad": false,
       "publishedUserSetOnLoad": false
     },
-    "Page1_PageJsObject.myFun2": {
+    "Page1 Copy_PageJsObject.myFun2": {
       "unpublishedUserSetOnLoad": false,
       "publishedUserSetOnLoad": false
+    },
+    "Page1 Copy_getUsers": {
+      "unpublishedUserSetOnLoad": true,
+      "publishedUserSetOnLoad": true
     },
     "Page1_getUsers": {
       "unpublishedUserSetOnLoad": true,

@@ -2,8 +2,8 @@
   "pluginType": "JS",
   "pluginId": "js-plugin",
   "unpublishedAction": {
-    "name": "myFun1",
-    "fullyQualifiedName": "PageJsObject.myFun1",
+    "name": "myFun2",
+    "fullyQualifiedName": "PageJsObject.myFun2",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -13,13 +13,13 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Page1",
-    "collectionId": "Page1_PageJsObject",
+    "pageId": "Page1 Copy",
+    "collectionId": "Page1 Copy_PageJsObject",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "() => {\n\t\t//write code here\n\t\tPageInputWidget.text;\n\t\t// Input1.text;\n\t\t// Input2.text;\n\t\t// Input3.text;\n\t\t// Input4.text;\n    // (getUsers?.data &&\tgetUsers?.data[0].name);\n\t\tgetUsers.run()\n\t}",
+      "body": "async () => {\n\t\t//use async-await or promises\n\t}",
       "jsArguments": [],
       "isAsync": true
     },
@@ -34,14 +34,14 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "() => {\n\t\t//write code here\n\t\tPageInputWidget.text;\n\t\t// Input1.text;\n\t\t// Input2.text;\n\t\t// Input3.text;\n\t\t// Input4.text;\n    // (getUsers?.data &&\tgetUsers?.data[0].name);\n\t\tgetUsers.run()\n\t}"
+      "async () => {\n\t\t//use async-await or promises\n\t}"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": []
   },
-  "id": "Page1_PageJsObject.myFun1",
+  "id": "Page1 Copy_PageJsObject.myFun2",
   "deleted": false,
-  "gitSyncId": "62552831ced2487c81cab2cd_6255285cced2487c81cab2d2"
+  "gitSyncId": "625580ae0d3d384069c02728_6257b81c0d3d384069c0b5dc"
 }
