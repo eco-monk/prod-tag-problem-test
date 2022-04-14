@@ -1,0 +1,89 @@
+{
+  "unpublishedPage": {
+    "name": "home",
+    "slug": "home",
+    "layouts": [
+      {
+        "viewMode": false,
+        "dsl": {
+          "widgetName": "MainContainer",
+          "backgroundColor": "none",
+          "rightColumn": 630,
+          "snapColumns": 64,
+          "detachFromLayout": true,
+          "widgetId": "0",
+          "topRow": 0,
+          "bottomRow": 390,
+          "containerStyle": "none",
+          "snapRows": 39,
+          "parentRowSpace": 1,
+          "type": "CANVAS_WIDGET",
+          "canExtend": true,
+          "version": 56,
+          "minHeight": 400,
+          "parentColumnSpace": 1,
+          "dynamicBindingPathList": [],
+          "leftColumn": 0,
+          "children": [
+            {
+              "widgetName": "HomeButtonWidget",
+              "onClick": "{{\n  storeValue(\"abc\", 123)\n  storeValue(\"abc\", 123)\n  storeValue(\"abc\", 123)\n\tnavigateTo(\"Page1\")\n}}",
+              "buttonColor": "#03B365",
+              "dynamicPropertyPathList": [
+                {
+                  "key": "onClick"
+                }
+              ],
+              "displayName": "Button",
+              "iconSVG": "/static/media/icon.cca02633.svg",
+              "topRow": 16,
+              "bottomRow": 20,
+              "parentRowSpace": 10,
+              "type": "BUTTON_WIDGET",
+              "hideCard": false,
+              "animateLoading": true,
+              "parentColumnSpace": 11.796875,
+              "dynamicTriggerPathList": [
+                {
+                  "key": "onClick"
+                }
+              ],
+              "leftColumn": 19,
+              "dynamicBindingPathList": [],
+              "text": "Submit",
+              "isDisabled": false,
+              "key": "4uaho1nb8d",
+              "rightColumn": 35,
+              "isDefaultClickDisabled": true,
+              "widgetId": "8ftkrf3tky",
+              "isVisible": true,
+              "recaptchaType": "V3",
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "buttonVariant": "PRIMARY",
+              "placement": "CENTER"
+            }
+          ]
+        },
+        "layoutOnLoadActions": [],
+        "widgetNames": [
+          "HomeButtonWidget",
+          "MainContainer"
+        ],
+        "validOnPageLoadActions": true,
+        "id": "home",
+        "deleted": false,
+        "policies": [],
+        "userPermissions": []
+      }
+    ],
+    "userPermissions": [],
+    "policies": [],
+    "isHidden": false
+  },
+  "deleted": false,
+  "policies": [],
+  "gitSyncId": "62552831ced2487c81cab2cd_62552886ced2487c81cab2df"
+}
